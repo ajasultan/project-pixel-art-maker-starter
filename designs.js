@@ -1,11 +1,6 @@
-// Select color input
-// Select size input
-
-// When size is submitted by the user, call makeGrid()
-const canvasTable = document.querySelector('#pixelCanvas'); //canvasTable
-var pickedHeight = document.querySelector('#inputHeight').value; //Input Height
-var pickedWidth = document.querySelector('#inputWidth').value; //Input Width
-var pickedColor =  document.querySelector('#colorPicker').value; //Choosen Color
+// defining the constant values
+const canvasTable = document.querySelector('#pixelCanvas');
+const boxStyle =  'border: solid black; width:1em; height: 1em;';
 
 
 function createPxlBox(){
