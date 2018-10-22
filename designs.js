@@ -31,3 +31,12 @@ submitForm.addEventListener("click", function(event){
     event.preventDefault();
 	makeGrid();
 });
+
+canvasTable.addEventListener('click', function (evt) {
+    // perform action only if the target event is the cell
+    if (evt.target.nodeName === 'TH') {
+        var pickedColor =  document.querySelector('#colorPicker').value;
+        // change the backgroundColor only for the targented cell
+        evt.target.style.backgroundColor = pickedColor;
+    }
+});
