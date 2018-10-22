@@ -20,13 +20,23 @@
     <h2>Pick A Color</h2>
     <input type="color" id="colorPicker">
 
+    <div id="instruction">
+        <h2 id="instruct-title">Instruction</h2>
+        <ul class="instruct">
+            <li>If you click reset it will reset the page and removes
+           the canvas! </li>
+           <li> To erase a cell, use the white color :) </li>
+       </ul>
+    </div>
+
     <h2>Design Canvas</h2>
     <table id="pixelCanvas"></table>
 
+    <p> </p>
     <form id="reset">
         <input type="reset" value="Reset" onClick="window.location.reload()">
     </form>
-    
+
     <script src="designs.js"></script>
 </body>
 </html>
