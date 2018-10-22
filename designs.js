@@ -1,6 +1,7 @@
 // defining the constant values
 const canvasTable = document.querySelector('#pixelCanvas');
 const boxStyle =  'border: solid black; width:1em; height: 1em;';
+const submitForm = document.querySelector('form')[2];
 
 
 /* makeGrid is a function that takes the input from the user input and creates
@@ -24,3 +25,9 @@ function makeGrid(){
         }
     }
 }
+
+
+submitForm.addEventListener("click", function(event){
+    event.preventDefault();
+	makeGrid();
+});
