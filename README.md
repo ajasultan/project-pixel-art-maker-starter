@@ -2,15 +2,8 @@
 
 ## Table of Contents
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+This Project is part of the Udacity Introduction to Programming Nano Degree.
 
-## Instructions
-
-To get started, open `designs.js` and start building out the app's functionality.
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+The Idea is to make a Pixel Art Maker page, using Java Script,
+that lets the user choose the size of the Canvas and the color of for each
+pixel.
