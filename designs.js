@@ -7,6 +7,10 @@ const submitForm = document.querySelector('form')[2];
 /* makeGrid is a function that takes the input from the user input and creates
  a canvas of size inputWidth x inputHeight */
 function makeGrid(){
+
+    while (canvasTable.hasChildNodes()){
+        canvasTable.removeChild(canvasTable.firstChild);
+    }
     //Store Input Height
     var pickedHeight = document.querySelector('#inputHeight').value;
     //Store Input Width
